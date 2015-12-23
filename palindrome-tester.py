@@ -45,8 +45,11 @@ def is_palindrome(s):
 			# return success status
 			return True
 
+# check for arguments
 if len(sys.argv) > 1:
+
 	# automatically execute for the only passed argument
 	print is_palindrome(sys.argv[1])
 else:
+	# notify of missing parameters
 	print "Error: Please provide a string to test"
