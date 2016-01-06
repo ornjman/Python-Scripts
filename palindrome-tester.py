@@ -11,7 +11,8 @@
 #
 # 	- At the command-line provide the string as the first argument, for example:
 # 
-#		python palindrome-tester.py "Am I a palindrome?"
+#		$ python palindrome-tester.py "Am I a palindrome?"
+#		$ Not a Palindrome 
 # 	
 
 
