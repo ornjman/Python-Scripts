@@ -1,24 +1,19 @@
 #!/usr/bin/env python
 
-# -- About ---------------------------------------------------------------------------
 # 
-# This script is designed to test a string for being a palindrome at the command line.
+#   This script is designed to test a string for being a palindrome at the command line.
 #
-#  - The program works by iterating through each letter of the string from the beginning
-#    and then comparing it to the next letter in the reverse direction.
+#  	- The program works by iterating through each letter of the string from the beginning
+#    	  and then comparing it to the next letter in the reverse direction.
 #
-#  - The string can contain new lines, punctuation and capitalization
-#    that are not counted against the string being a palindrome
+#  	- The string can contain new lines, punctuation and capitalization
+#     	  that are not counted against the string being a palindrome
 #
-# -- Usage ----------------------------------------------------------------------------
+# 	- At the command-line provide the string as the first argument, for example:
 # 
-# At the command-line provide the string as the first argument, for example:
-# 
-#	python palindrome-tester.py "Am I a palindrome?"
+#		python palindrome-tester.py "Am I a palindrome?"
 # 	
-# 
-# -- Missing functionality ------------------------------------------------------------
-# STDIN as input for a string
+
 
 # import the sys library for capturing passed arguments
 import sys
